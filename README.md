@@ -21,8 +21,6 @@ Tab
 
 Ik moet mezelf gaan verdiepen in aria-label en aria-live
 
-Tekst laten lezen/selecteren (test-opdracht)
-
 
 Vasilis vertelde:
 Met aria-live attribuut kan je met JavaScript stukken tekst voorlezen, na de gebruiker iets heeft geselecteerd.
@@ -104,6 +102,13 @@ Er ontstaan dan 4 nieuwe principes:
 Het gaat erom dat veel standaard designprincipes uitgaan van aannames die niet altijd kloppen voor mensen met een beperking.
 
 
+
+
+14 april kan ik niet aanwezig zijn.
+Een kennis van me is blind in haar rechteroog en slechtziend links.
+Van Vasilis heb ik toestemming gekregen om die keer mijn app met haar te testen.
+De andere 3 keer doe ik wel met Roger in de klas.
+
 ## Checkout
 Besproken met Braham
 
@@ -125,6 +130,76 @@ Hem de vragen stellen die ik heb.
 
 Mezelf verdiepen in ARIA.
 
+
+# Dag 02 (31-03-2026)
+## Checkout
+Vandaag is er geen checkout i.v.m. de testmomenten
+
+## Wat heb ik gedaan vandaag?
+Vanochtend de weekly geek
+Daarna moeten wachten tot het gesprek. Deze tijd heb ik benut voor een herkansing van de pabo.
+
+Om 14:00 het gesprek met Roger.
+Roger is 59. Wordt 60 dit jaar
+Was 43 toen hij dacht ik zie wat waziger
+Drukke baan bij rijksoverheid
+Toch maar langs de opticien
+Doorverwezen en uitslag. Het netvlies gaan door een erfelijke aandoening kapot (kegeltjes)
+Al snel kon hij niet meer lezen
+Baan verloren door dit. Autorijden niet meer
+Doet vrijwilligerswerk
+Hij doet nu nieuwe opleiding. Studeerd nu filosofie.
+
+Roger kan kleuren zien. Vroeg of laat worden de kleuren wel aangetast
+
+Zijn brein vult het gat in, maar dat betekent niet dat het juist is wat hij ziet
+
+Hij ziet als het ware met een vuist voor zijn gezicht.
+
+Op zijn telefoon heeft hij een voice over. Door twee keer te tikken op de achterkant van zijn telefoon gaat deze aan of uit.
+
+Hij wil studieboeken kunnen toevoegen en daarbij aantekeningen maken. Net zoals wij dat met plakkertjes doen.
+En ook dat hij z'n aantekeningen terug kan vinden
+
+Buitenkanten van een website kan hij zien, maar niet het midden van een zin.
+Hij kan twee zinnen lezen en dan houdt het ook qua energie op
+Hij ziet één grote blur
+
+Hij is gevoelig voor witlicht. (website in darkmode)
+
+Hij maakt nu nog aantekeningen met pen en papier.
+Door krabbeltjes te maken kan hij dingen onthouden.
+Soms neemt hij aantekeningen op. Maar niet iedereen vindt dit fijn
+Aantekening knopjes zoals bij word vindt hij erg lastig, vooral het terug vinden
+Voorkeur voor aantekeningen is auditief.
+
+Het krijgen van studieboeken in word is enorm lastig (en aantekeningen maken)
+(Dit wil hij hebben. Het juiste bestand kunnenn krijgen en aantekeningen maken)
+
+Voor aantekeningen zit hij achter zijn computer
+Niet op tel. Wil wel graag op tel aantekeingen kunnen maken
+
+Supernova en nvd(?) op laptop
+
+Wil aantekeningen koppelen aan het boek.
+Dus in een lijst boek kunnen terug vinden en daarin de aantekeningen
+
+Hij kan enigszins blind typen
+
+Tabben of wat anders per zin is fijner dan per paragraaf
+
+## Hoe lang duurde het?
+Van +/- 09:20 tot
+
+## Wat heb ik geleerd?
+Geleerd hoe Roger de wereld ziet en het web gebruikt.
+We konden hem veel vragen.
+
+4 studenten hadden wat kleins gemaakt en lieten dit testen. Hier kwam ook nuttige informatie uit.
+
+## Wat ga ik morgen doen?
+Morgen hebben we de eerste API les
+
 ## Bronnenlijst:
 Exclusive Design https://exclusive-design.vasilis.nl/
 
@@ -133,7 +208,7 @@ Exclusive Design https://exclusive-design.vasilis.nl/
 
 
 ## Volledige bronnenlijst:
-Vasilis.nl - Exclusive Design (2017). Geraadpleegd op 30-03-2026 van <a href="https://exclusive-design.vasilis.nl/">
+Vasilis.nl - Exclusive Design (2019). Geraadpleegd op 30-03-2026 van <a href="https://exclusive-design.vasilis.nl/">
 
-Vasilis.nl - Flipping things (2017). Geraadpleegd op 30-03-2026 van <a href="https://exclusive-design.vasilis.nl/flipping-things/">
+Vasilis.nl - Flipping things (2019). Geraadpleegd op 30-03-2026 van <a href="https://exclusive-design.vasilis.nl/flipping-things/">
 
