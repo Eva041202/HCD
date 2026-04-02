@@ -200,15 +200,31 @@ We konden hem veel vragen.
 ## Wat ga ik morgen doen?
 Morgen hebben we de eerste API les
 
+# Extra (02-04-2026)
+Schets in Figma gemaakt
+<a href="./media/schets_hcd.png" alt="schets_hcd">
+
 ## Bronnenlijst:
 Exclusive Design https://exclusive-design.vasilis.nl/
+mdn - WAI-ARIA Roles https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles#:~:text=ARIA%20roles%20are%20added%20to,in%20association%20with%20other%20roles.
 
 
 
 
 
-## Volledige bronnenlijst:
+# Voortgangsgesprekken
+## 02-04-2026
+Deze week had ik alleen kennisgemaakt met Roger en vragen gesteld.
+Ik vond het erg lastig om wat te bedenken, maar na het gesprek met Leonie heb ik meer kennis met wat ik kan en wil doen.
+
+Op advies heb ik NVDA gedownload om dat er altijd bij te kunnen houden. Zo weet ik ongeveer hoe Roger het ervaart.
+
+Leonie zei dat aria roles handig is. Daar wil ik me in gaan verdiepen
+
+# Volledige bronnenlijst:
 Vasilis.nl - Exclusive Design (2019). Geraadpleegd op 30-03-2026 van <a href="https://exclusive-design.vasilis.nl/">
 
 Vasilis.nl - Flipping things (2019). Geraadpleegd op 30-03-2026 van <a href="https://exclusive-design.vasilis.nl/flipping-things/">
+
+mdn - WAI-ARIA Roles (2025). Geraadpleegd op 02-04-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles#:~:text=ARIA%20roles%20are%20added%20to,in%20association%20with%20other%20roles.">
 
