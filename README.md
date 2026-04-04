@@ -209,6 +209,10 @@ Exclusive Design https://exclusive-design.vasilis.nl/
 mdn - WAI-ARIA Roles https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles#:~:text=ARIA%20roles%20are%20added%20to,in%20association%20with%20other%20roles.
 
 
+# Extra (04-04-2026)
+De schets in Figma geprobeerd na te maken.
+Dit was toen het resultaat begin van de middag: <img src="./media/eerste_probeersel.png" alt="begin_figma_layout">
+
 
 
 

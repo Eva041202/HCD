@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App voor Roger</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="frames">
+        <header> <!--MARK: top-->
+            <details>
+                <summary>Documenten</summary>
+                <ul>
+                    <li>
+                        <button>Boek 1</button>
+                    </li>
+                    <li>
+                        <button>Boek 2</button>
+                    </li>
+                </ul>
+            </details>
+        </header>
+
+        <main> <!--MARK: midden-->
+            <h1>TEKST</h1>
+
+            <p>Hierin tekst die wordt opgehaald uit het gekozen document</p>
+
+            <button>Maak annotatie</button>
+        </main>
+
+        <div class="notes"> <!--BRON: kwam met het idee van het laten verschijnen, door wat ik had gedaan met BT.
+                                        Daar had ik verschijnende vragen gemaakt. Dit heb ik opnieuw toegepast door de notitie frame te laten verschijnen-->
+            <section class="note-list">
+                <h2>Opgeslagen notities</h2>
+                
+                <label class="checkbox">
+                    <input type="checkbox" name="notes" value="yes">
+                </label>
+
+            <div class="note-frame">
+            <section class="note-input">
+                <label>Notitie:</label> <br />
+                <p>Hierin tekst van opgeslagen notities</p>
+
+                <button>Opslaan</button>
+            </section>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
