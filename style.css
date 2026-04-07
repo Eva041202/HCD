@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    background: black;
 }
 
 header {
@@ -13,20 +14,22 @@ header {
 }
 
 header details {
-    background: #ddd;
+    background: #504e4e;
     padding: 1rem 2rem; /*Groter maken */
 }
 
 .top {
     display: flex;
     padding: 1rem;
-    background: #ddd;
+    background: black;
+    font-weight: bold;
 }
 
 .menu {
     display: flex;
     padding: 1rem;
-    background: #ddd;
+    background: #504e4e;
+    color: rgb(214, 214, 17);
 }
 
 .layout {
@@ -39,16 +42,17 @@ header details {
 .documenten {
     flex: 2;
     max-width: 700px;
-    background: #ddd;
+    background: #504e4e;
     padding: 1rem;
+    color: rgb(214, 214, 17)
 }
 
 .notes {
     flex: 1;
     max-width: 350px;
-    background: #ddd;
+    background: #504e4e;
     padding: 1rem;
-    border-left: 2px solid #ddd;
+    color: rgb(214, 214, 17);
 }
 
 textarea {

@@ -4,12 +4,14 @@ const docs = {
                 boek2: ["Paragraaf 1", "Paragraaf 2"]
 };
 
-let currentText = "";
+let currentDoc="null";
+let currentParagraph = null;
+const notes = {}; //opslag per document
 
 //Document laden
 function loadDoc(name) {
-    const main = document.querySelector("main");
-    main.innerHTML = "<h1>TEKST<h1>";
+    const container = document.getElementById("docContent");
+    container.innerHTML = "<h1>TEKST<h1>";
 
     docs[name].forEach((p) => {
         const para = document.createElement("p");

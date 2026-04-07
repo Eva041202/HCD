@@ -223,7 +223,28 @@ Zaterdag had ik enigszins de layout gemaakt.
 Ik had toen het gedeelte van "notities" laten verschijen met has() (net als met bt)
 Ik denk dat het beter is als ik hier ook een details van maak, net als "documenten"
 
+Html en css verder uitgewerkt.
+Met behulp van chatgpt Javascript kunnen toevoegen.
+Als de gebruiker nu op een van de boeken klikt onder documenten, verschijnt in het vak eronder tekst met paragrafen en knoppen om aantekeningen te maken.
+Deze knoppen moet ik gaan vervangen met een sneltoets.
+
+Ik heb donkere kleuren toegevoegd, wat Roger fijner vindt.
+
 <img src="./media/tweede_try.png" alt="aanpassingen_2">
+
+Gesprek om 14:00 gehad
+Roger heeft een goede screenreader op zijn telefoon waarmee hij al zijn documenten kan vinden en lezen. Alleen het maken van notities is amper mogelijk.
+
+Hij sluit een klein toetsenbordje aan op zijn telefoon. De toetsenbord van de telefoon zelf gebruikt hij niet.
+Hij kan blind typen met de aangesloten toetsenbord.
+
+Hij heeft meerdere screenreaders waar hij gebruik van maakt, zodat hij niet afhankelijk is van één screenreader.
+Soms gebeurt het wel eens dat er een update is en dat sommige dingen het niet meer doen.
+
+Hij wil graag zelf de spraaksnelheid kunnen aanpassen.
+
+Fonts heeft hij geen voorkeur voor.
+Op een gegeven moment ziet hij echt niks meer en alleen de stem is wat hij belangrijk vindt.
 
 ## Hoe lang duurde het?
 Van +/- 09:15 tot
