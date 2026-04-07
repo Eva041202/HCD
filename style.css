@@ -1,59 +1,57 @@
-.frames {
-    display: grid;
-    grid-template-columns: 200px 1fr 300px;
-    grid-template-rows: 60px 1fr;
-    height: 100vh;
+body {
+    margin: 0;
+    font-family: sans-serif;
 }
 
 header {
     grid-column: 1 / 4;
-    background: #ddd;
     display: flex;
     align-items: center;
-    padding: 0 1rem;
-    gap: 1rem;
+    padding: 0;
+
+    justify-items: auto;
 }
 
-main {
-    margin: 10px;
+header details {
+    background: #ddd;
+    padding: 1rem 2rem; /*Groter maken */
+}
+
+.top {
+    display: flex;
     padding: 1rem;
     background: #ddd;
+}
+
+.menu {
+    display: flex;
+    padding: 1rem;
+    background: #ddd;
+}
+
+.layout {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.documenten {
+    flex: 2;
+    max-width: 700px;
+    background: #ddd;
+    padding: 1rem;
 }
 
 .notes {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-}
-
-.note-list {
-    margin: 10px;
-    padding: 1rem;
+    flex: 1;
+    max-width: 350px;
     background: #ddd;
-}
-
-
-
-/*BRON: kwam met het idee van het laten verschijnen, door wat ik had gedaan met BT.
-                                        Daar had ik verschijnende vragen gemaakt. Dit heb ik opnieuw toegepast door de notitie frame te laten verschijnen */
-.note-frame {
-    display: none;
-}
-
-label:has(input[value="yes"]:checked) ~ .note-frame {
-    display: block;
-}
-
-
-
-.checkbox {
     padding: 1rem;
+    border-left: 2px solid #ddd;
 }
 
-.note-frame {
-    padding: 1rem;
-}
-
-
-button { /*AANPASSEN: pakt alleen "opslaan" button */
-    margin-top: 10px;
+textarea {
+    width: 100%;
+    height: 100px;
 }

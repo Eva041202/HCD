@@ -214,6 +214,26 @@ De schets in Figma geprobeerd na te maken.
 Dit was toen het resultaat begin van de middag: <img src="./media/eerste_probeersel.png" alt="begin_figma_layout">
 
 
+# Dag 03 (07-04-2026)
+## Checkout
+Besproken met
+
+## Wat heb ik gedaan vandaag?
+Zaterdag had ik enigszins de layout gemaakt.
+Ik had toen het gedeelte van "notities" laten verschijen met has() (net als met bt)
+Ik denk dat het beter is als ik hier ook een details van maak, net als "documenten"
+
+<img src="./media/tweede_try.png" alt="aanpassingen_2">
+
+## Hoe lang duurde het?
+Van +/- 09:15 tot
+
+## Wat heb ik geleerd?
+
+## Wat ga ik morgen doen?
+
+## Bronnenlijst:
+Tetra Logical - Accessibility and the agentic web https://tetralogical.com/blog/2025/08/08/accessibility-and-the-agentic-web/
 
 
 # Voortgangsgesprekken
@@ -225,6 +245,7 @@ Op advies heb ik NVDA gedownload om dat er altijd bij te kunnen houden. Zo weet 
 
 Leonie zei dat aria roles handig is. Daar wil ik me in gaan verdiepen
 
+
 # Volledige bronnenlijst:
 Vasilis.nl - Exclusive Design (2019). Geraadpleegd op 30-03-2026 van <a href="https://exclusive-design.vasilis.nl/">
 
@@ -232,3 +253,4 @@ Vasilis.nl - Flipping things (2019). Geraadpleegd op 30-03-2026 van <a href="htt
 
 mdn - WAI-ARIA Roles (2025). Geraadpleegd op 02-04-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles#:~:text=ARIA%20roles%20are%20added%20to,in%20association%20with%20other%20roles.">
 
+Tetra Logical - Accessibility and the agentic web (2025). Geraadpleegd op 06-04-2026 van <a href="https://tetralogical.com/blog/2025/08/08/accessibility-and-the-agentic-web/">
