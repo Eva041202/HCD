@@ -10,46 +10,57 @@ const notes = {}; //opslag per document
 
 //Document laden
 function loadDoc(name) {
-    const container = document.getElementById("docContent");
-    container.innerHTML = "<h1>TEKST<h1>";
+    currentDoc= name;
 
-    docs[name].forEach((p) => {
+    const container = document.getElementById("docContent");
+    container.innerHTML = "";
+
+
+    docs[name].forEach((p, index) => {
         const para = document.createElement("p");
         para.textContent = p;
-        para.setAttribute("tabindex", "0");
+        para.tabindex = 0;
 
-        const btn = document.createElement("button");
-        btn.textContent = "Maak annotatie";
-        btn.addEventListener("click", () => showNoteField(p));
+        para.addEventListener("click", () => selectParagraph(p));
 
-        main.appendChild(para);
-        main.appendChild(btn);
+        container.appendChild(para);
     });
 }
 
-    //Notitieveld openen (later)
-    function showNoteField(text) {
-        currentText = text;
-    }
+function selectParagraph(text) {
+    currentParagraph = text;
 
-    //Notitie opslaan
-    function saveNote() {
-        const note = document.getElementById("note").value;
-        const list = document.getElementById("noteList");
+    document.getElementById("noteContext").textContent = "Notitie voor: " + text;
+}
 
+document.getElementById("saveNoteBtn").addEventListener("click", () => {
+    const input = document.getElementById("noteInput");
+    const value = input.value;
+
+    if (!notes[currentDoc])
+        notes[currentDoc] = [];
+
+    notes[currentDoc].push({
+        paragraph: currentParagraph, note: value
+    });
+
+    renderNotes();
+    input.value = "";
+});
+
+function renderNotes () {
+    const list = document.getElementById("noteList");
+    list.innerHTML = "";
+
+    if (!notes[currentDoc]) return;
+
+    notes[currentDoc].forEach(n => {
         const li = document.createElement("li");
-        li.textContent = currentText + " -> " + note;
-
+        li.textContent = `$ {n.paragraph}: ${n.note}`;
         list.appendChild(li);
+    });
+}
 
-        document.getElementById("note").value = "";
-    }
-
-//knoppen koppelen
-document.getElementById("boek1Btn").addEventListener("click", () => {
-    loadDoc("boek1");
-});
-
-document.getElementById("boek2Btn").addEventListener("click", () => {
-    loadDoc("boek2");
-});
+//Knoppen
+document.getElementById("boek1Btn").addEventListener("click", () => loadDoc("boek1"));
+document.getElementById("boek2Btn").addEventListener("click", () => loadDoc("boek2"));

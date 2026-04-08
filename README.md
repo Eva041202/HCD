@@ -215,9 +215,6 @@ Dit was toen het resultaat begin van de middag: <img src="./media/eerste_probeer
 
 
 # Dag 03 (07-04-2026)
-## Checkout
-Besproken met
-
 ## Wat heb ik gedaan vandaag?
 Zaterdag had ik enigszins de layout gemaakt.
 Ik had toen het gedeelte van "notities" laten verschijen met has() (net als met bt)
@@ -250,8 +247,11 @@ Op een gegeven moment ziet hij echt niks meer en alleen de stem is wat hij belan
 Van +/- 09:15 tot
 
 ## Wat heb ik geleerd?
+Nieuwe informatie van Roger gekregen
 
 ## Wat ga ik morgen doen?
+Morgen zijn er weer API lessen.
+Als ik tijd heb wil ik wel verder met de layout voor HCD
 
 ## Bronnenlijst:
 Tetra Logical - Accessibility and the agentic web https://tetralogical.com/blog/2025/08/08/accessibility-and-the-agentic-web/
@@ -265,6 +265,8 @@ Ik vond het erg lastig om wat te bedenken, maar na het gesprek met Leonie heb ik
 Op advies heb ik NVDA gedownload om dat er altijd bij te kunnen houden. Zo weet ik ongeveer hoe Roger het ervaart.
 
 Leonie zei dat aria roles handig is. Daar wil ik me in gaan verdiepen
+
+## 10-04-2026
 
 
 # Volledige bronnenlijst:
