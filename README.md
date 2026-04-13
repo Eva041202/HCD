@@ -267,7 +267,8 @@ Op advies heb ik NVDA gedownload om dat er altijd bij te kunnen houden. Zo weet 
 Leonie zei dat aria roles handig is. Daar wil ik me in gaan verdiepen
 
 ## 10-04-2026
-
+aria-label overschrijft de tekst ("knop, opent naar nieuwe pagina")
+Omdat je het overschijft kan je het meer "menselijke" taal geven
 
 # Volledige bronnenlijst:
 Vasilis.nl - Exclusive Design (2019). Geraadpleegd op 30-03-2026 van <a href="https://exclusive-design.vasilis.nl/">
