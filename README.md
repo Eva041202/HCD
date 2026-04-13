@@ -257,6 +257,26 @@ Als ik tijd heb wil ik wel verder met de layout voor HCD
 Tetra Logical - Accessibility and the agentic web https://tetralogical.com/blog/2025/08/08/accessibility-and-the-agentic-web/
 
 
+# Dag 04 (13-04-2026)
+## Wat heb ik gedaan vandaag?
+Artikelen gevonden en de tekst daarvan in JavaScript gezet.
+Als de gebruiker nu iets kiest in documenten komt de juiste tekst tevoorschijn.
+
+## Hoe lang duurde het?
+Van +/- 09:15 tot 12:15
+(nu ga ik verder aan api)
+
+## Wat heb ik geleerd?
+
+## Wat ga ik morgen doen?
+Morgen ben ik afwezig. Dit heb ik tijdig besproken met Vasilis.
+De test kan ik gaan doen met een kennis van mij die ook zichtproblemen heeft.
+
+## Bronnenlijst:
+Filosofie Magazine - Plato https://www.filosofie.nl/filosofen/plato/
+Filosofie Magazine - Epistemologie https://www.filosofie.nl/disciplines/kenleer/?_gl=1*uhpg2s*_up*MQ..*_ga*MjA0OTQzNzA1Ny4xNzc2MDY1ODY2*_ga_J3PW8BD5PD*czE3NzYwNjkxMzMkbzIkZzAkdDE3NzYwNjkxMzMkajYwJGwwJGgw
+
+
 # Voortgangsgesprekken
 ## 02-04-2026
 Deze week had ik alleen kennisgemaakt met Roger en vragen gesteld.
@@ -278,3 +298,7 @@ Vasilis.nl - Flipping things (2019). Geraadpleegd op 30-03-2026 van <a href="htt
 mdn - WAI-ARIA Roles (2025). Geraadpleegd op 02-04-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles#:~:text=ARIA%20roles%20are%20added%20to,in%20association%20with%20other%20roles.">
 
 Tetra Logical - Accessibility and the agentic web (2025). Geraadpleegd op 06-04-2026 van <a href="https://tetralogical.com/blog/2025/08/08/accessibility-and-the-agentic-web/">
+
+Filosofie Magazine - Plato (z.d.). Geraadpleegd op 13-04-2026 van <a href="https://www.filosofie.nl/filosofen/plato/">
+
+Filosofie Magazine - Epistemologie (). Geraadpleegd op 13-04-2026 van <a href="https://www.filosofie.nl/disciplines/kenleer/?_gl=1*uhpg2s*_up*MQ..*_ga*MjA0OTQzNzA1Ny4xNzc2MDY1ODY2*_ga_J3PW8BD5PD*czE3NzYwNjkxMzMkbzIkZzAkdDE3NzYwNjkxMzMkajYwJGwwJGgw">
