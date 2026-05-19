@@ -1,61 +1,52 @@
-body {
+* {
     margin: 0;
-    font-family: sans-serif;
-    background: black;
-}
-
-header {
-    grid-column: 1 / 4;
-    display: flex;
-    align-items: center;
     padding: 0;
-
-    justify-items: auto;
+    box-sizing: border-box;
+    font-family: sans-serif, Arial;
 }
 
-header details {
-    background: #504e4e;
-    padding: 1rem 2rem; /*Groter maken */
-}
-
-.top {
-    display: flex;
-    padding: 1rem;
+body {
     background: black;
-    font-weight: bold;
-}
-
-.menu {
-    display: flex;
-    padding: 1rem;
-    background: #504e4e;
-    color: rgb(214, 214, 17);
-}
-
-.layout {
-    display: flex;
-    justify-content: flex-start;
-    gap: 2rem;
-    padding: 2rem;
-}
-
-.documenten {
-    flex: 2;
-    max-width: 700px;
-    background: #504e4e;
-    padding: 1rem;
     color: rgb(214, 214, 17)
 }
 
-.notes {
-    flex: 1;
-    max-width: 350px;
-    background: #504e4e;
-    padding: 1rem;
-    color: rgb(214, 214, 17);
+.left {
+    width: 500px;
+    padding-top: 50px;
+    padding-left: 100px;
 }
 
-textarea {
-    width: 100%;
-    height: 100px;
+.menu {
+    background: #504e4e;
+    color: rgb(214, 214, 17);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.layout {
+    background: #5a5757;
+    color:rgb(214, 214, 17);
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.docContent p {
+    margin-bottom: 20px;
+}
+
+.notes {
+    max-width: 350px;
+    background: #504e4e;
+    padding: 1rem 2rem;
+    color: rgb(214, 214, 17);
 }

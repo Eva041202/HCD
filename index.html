@@ -8,55 +8,37 @@
 </head>
 
 <body>
-    <!-- <div class="frames"> -->
-        <header class="top"> <!--MARK: top-->
-            <nav class="menu">
-                <details>
-                    <summary>Documenten</summary>
-                    <ul>
-                        <li>
-                            <button id="PlatoBtn">Plato</button>
-                        </li>
-                        <li>
-                            <button id="EpistemologieBtn">Epistemologie</button>
-                        </li>
-                    </ul>
-                </details>
+    <main class="left">
+        <div class="menu">
+            <details>
+                <summary>Documenten</summary>
+                <ul>
+                    <li>
+                        <button id="PlatoBtn">Plato</button>
+                    </li>
+                    <li>
+                        <button id="EpistemologieBtn">Epistemologie</button>
+                    </li>
+                </ul>
+            </details>
 
-                <details>
-                    <summary>N</summary>
-                    <ul>
-                        <li>
-                            <button id="notesBtn">1</button>
-                        </li>
-                    </ul>
-                </details>
-            </nav>
-        </header>
+            <details>
+                <summary>N</summary>
+                <ul>
+                    <li>
+                        <button id="notesBtn">1</button>
+                    </li>
+                </ul>
+            </details>
+        </div>
 
         <div class="layout">
-            <main class="documenten" tabindex="0" aria-live="polite">
-                <div id="docContent">
-                    <p>Kies een document</p>
-                </div>
-            </main>
-
-        <aside class="notes" aria-live="polite">
-            <h2>Notities</h2>
-
-            <div id="notePanel" hidden>
-                <p id="noteContext"></p>
-
-                <label for="noteInput">Notitie:</label>
-                <textarea id="noteInput"></textarea>
-
-                <button id="saveNoteBtn">Opslaan</button>
+            <div class="docContent" id="docContent">
+                <p>Kies een document</p>
             </div>
+        </div>
+    </main>
 
-            <ul id="noteList"></ul>
-        </aside>
-
-    </div>
 
     <script src="script.js"></script>
 

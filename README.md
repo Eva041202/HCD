@@ -157,7 +157,7 @@ Zijn brein vult het gat in, maar dat betekent niet dat het juist is wat hij ziet
 Hij ziet als het ware met een vuist voor zijn gezicht.
 
 Op zijn telefoon heeft hij een voice over. Door twee keer te tikken op de achterkant van zijn telefoon gaat deze aan of uit.
-
+ 
 Hij wil studieboeken kunnen toevoegen en daarbij aantekeningen maken. Net zoals wij dat met plakkertjes doen.
 En ook dat hij z'n aantekeningen terug kan vinden
 
@@ -302,3 +302,26 @@ Tetra Logical - Accessibility and the agentic web (2025). Geraadpleegd op 06-04-
 Filosofie Magazine - Plato (z.d.). Geraadpleegd op 13-04-2026 van <a href="https://www.filosofie.nl/filosofen/plato/">
 
 Filosofie Magazine - Epistemologie (). Geraadpleegd op 13-04-2026 van <a href="https://www.filosofie.nl/disciplines/kenleer/?_gl=1*uhpg2s*_up*MQ..*_ga*MjA0OTQzNzA1Ny4xNzc2MDY1ODY2*_ga_J3PW8BD5PD*czE3NzYwNjkxMzMkbzIkZzAkdDE3NzYwNjkxMzMkajYwJGwwJGgw">
+
+## Inhaal
+# 11-05-2026
+Vandaag heb ik een gesprek gehad met de studentendecaan.
+Hier hebben we besproken waarom ik er uit ben geweest. Bij de docenten moet ik navragen hoe ik dit het best kan herkansen. Als dit binnen de minor nog mogelijk is hoeven we verder niks te doen.
+Is dit niet mogelijk en wordt het herkansen pas mogelijk na de zomer, dan moet ik toestemming gaan aanvragen bij de examencomissie.
+
+# 18-05-2026
+Vandaag na de start van de mesterproef kon ik even kort bespreken met Leonie en Jad over het herkansen van de opdrachten.
+Zij vinden het beide goed om dit of tijdens de meesterproef of de laatste week voor de vakantie dit te doen. Ze geven mij de ruimte om er aan te werken wanneer ik tijd heb. Ook i.v.m de meesterproef.
+
+# 19-05-2026
+Het begin van de meesterproef gaat erg goed. Morgen gaan we verder, waardoor ik nu eind middag even de tijd heb om weer aan HCD te zitten.
+
+Mijn plan is om HCD verder te maken dat het tabben door de tekst mogelijk is en op deze manier een alinea kunnen "aanvinken".
+Dit wil ik dan testen met m'n kennis en daarop verder gaan.
+
+Bij medestudenten moet ik even vragen wat hun laatste bevindingen waren bij de tests met Roger.
+
+Het vak Notities heb ik verwijderd. Dit heeft geen nu als dit er al staat. Ik wil dit pas laten verschijnen als de gebruiker aangeeft dat hij een notitie wil maken bij die alinea.
+
+Documenten en Kies een document staan nu netjes onder elkaar.
+Een paar dingen heb ik aangepast, waardoor de JavaScript niet meer werkt. Dit pas ik volgende keer even aan.
