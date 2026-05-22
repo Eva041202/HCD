@@ -10,13 +10,17 @@ body {
     color: rgb(214, 214, 17)
 }
 
-.left {
+.grid {
+
+}
+
+/* .left {
     width: 500px;
     padding-top: 50px;
     padding-left: 100px;
-}
+} */
 
-.menu {
+.left {
     background: #504e4e;
     color: rgb(214, 214, 17);
     font-size: 18px;
