@@ -10,8 +10,22 @@ body {
     color: rgb(214, 214, 17)
 }
 
-.grid {
+.left {
+    display: flex;
+    height: 100vh;
+}
 
+.left-panel {
+    width: 31rem;
+    padding: 20px;
+    overflow-y: auto: /*Chatgpt*/
+}
+
+.right-panel {
+    width: 1rem;
+    border: 2px solid rgb(214, 214, 17);
+    padding: 20px;
+    display: none;
 }
 
 /* .left {
@@ -20,7 +34,7 @@ body {
     padding-left: 100px;
 } */
 
-.left {
+/* .left {
     background: #504e4e;
     color: rgb(214, 214, 17);
     font-size: 18px;
@@ -30,9 +44,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} */
 
-.layout {
+/* .layout {
     background: #5a5757;
     color:rgb(214, 214, 17);
     height: 80px;
@@ -53,4 +67,4 @@ body {
     background: #504e4e;
     padding: 1rem 2rem;
     color: rgb(214, 214, 17);
-}
+} */

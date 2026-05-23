@@ -8,36 +8,42 @@
 </head>
 
 <body>
-    <main class="grid">
+
         <div class="left">
-            <details>
-                <summary>Documenten</summary>
-                <ul>
-                    <li>
-                        <button id="PlatoBtn">Plato</button>
-                    </li>
-                    <li>
-                        <button id="EpistemologieBtn">Epistemologie</button>
-                    </li>
-                </ul>
-            </details>
+            <div class="left-panel">
+                <details>
+                    <summary tabindex="0">Documenten</summary>
+                    <button class="button" id="PlatoBtn">
+                        Plato
+                    </button>
+                    
+                    <button class="button" id="EpistemologieBtn">
+                        Epistemologie
+                    </button>
+                </details>
 
-            <details>
-                <summary>N</summary>
-                <ul>
-                    <li>
-                        <button id="notesBtn">1</button>
-                    </li>
-                </ul>
-            </details>
-        </div>
+                <details>
+                    <summary tabindex="0">N</summary>
+                    <div id="saved-notes">
+                        "Geen notities opgeslagen"
+                    </div>
+                </details>
 
-        <div class="layout">
-            <div class="docContent" id="docContent">
-                <p>Kies een document</p>
+                <div id="text-container">
+                    
+                </div>
+            </div>
+
+            <div class="right-panel" id="note-panel">
+                <h1>Notitie</h1>
+
+                <textare id="note-input"></textare>
+
+                <button id="save-note">
+                Opslaan
+                </button>
             </div>
         </div>
-    </main>
 
 
     <script src="script.js"></script>
