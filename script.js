@@ -38,67 +38,24 @@ docButtons.forEach(button => {
 })
 
 // De tekst zien/lezen
+function loadDocument(docld) {
+    textContainer.innerHTML = "";
+    const paragraphs = documents[docld];
+    paragraphs.forEach(paragraphText => {
+        const p = document.createElement("div");
+        p.classList.add("paragraph");
+        p.setAttribute("tabindex", "0");
+        p.textContent = paragraphText;
 
+        // Enter klikken op alinea
+        p.addEventListener("keydown", (event) => {
+            if (event.key === "Enter") {
+                currentParagraph = paragraphText;
+                notePanel.classList.remove("hidden");
+                noteInput.focus();
+            }
+        })
 
-
-
-
-    container.innerHTML = "";
-
-
-    docs[name].forEach((p) => {
-        const para = document.createElement("p");
-        para.textContent = p;
-        para.tabindex = 0;
-
-        para.addEventListener("click", () => selectParagraph(p));
-        speak(p);
-
-        container.appendChild(para);
-    });
+        textContainer.appendChild(p);
+    })
 }
-
-function selectParagraph(text) {
-    currentParagraph = text;
-
-    document.getElementById("noteContext").textContent = "Notitie voor: " + text;
-}
-
-document.getElementById("saveNoteBtn").addEventListener("click", () => {
-    const input = document.getElementById("noteInput");
-    const value = input.value;
-
-    if (!notes[currentDoc])
-        notes[currentDoc] = [];
-
-    notes[currentDoc].push({
-        paragraph: currentParagraph, note: value
-    });
-
-    renderNotes();
-    input.value = "";
-});
-
-function renderNotes () {
-    const list = document.getElementById("noteList");
-    list.innerHTML = "";
-
-    if (!notes[currentDoc]) return;
-
-    notes[currentDoc].forEach(n => {
-        const li = document.createElement("li");
-        li.textContent = `$ {n.paragraph}: ${n.note}`;
-        list.appendChild(li);
-    });
-}
-
-function speak(text) {
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "nl-NL";
-    speechSynthesis.speak(utterance);
-}
-
-
-//Knoppen
-document.getElementById("PlatoBtn").addEventListener("click", () => loadDoc("Plato"));
-document.getElementById("EpistemologieBtn").addEventListener("click", () => loadDoc("Epistemologie"));

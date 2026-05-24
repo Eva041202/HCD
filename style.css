@@ -15,56 +15,48 @@ body {
     height: 100vh;
 }
 
+/*Linkerkant*/
 .left-panel {
+    background: #504e4e;
     width: 31rem;
     padding: 20px;
     overflow-y: auto: /*Chatgpt*/
 }
 
+/*Rechterkant*/
 .right-panel {
+    background: #504e4e;
     width: 1rem;
     border: 2px solid rgb(214, 214, 17);
     padding: 20px;
+}
+
+/*Verborgen*/
+.hidden {
     display: none;
 }
 
-/* .left {
-    width: 500px;
-    padding-top: 50px;
-    padding-left: 100px;
-} */
-
-/* .left {
-    background: #504e4e;
-    color: rgb(214, 214, 17);
-    font-size: 18px;
-    font-weight: bold;
-    padding: 20px;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
-
-/* .layout {
-    background: #5a5757;
-    color:rgb(214, 214, 17);
-    height: 80px;
-
-    display: flex;
-    align-items: center;
-
-    padding-left: 15px;
-    font-size: 18px;
-}
-
-.docContent p {
+/*Alinea's*/
+.paragraph {
     margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid rgb(214, 214, 17);
 }
 
-.notes {
-    max-width: 350px;
-    background: #504e4e;
-    padding: 1rem 2rem;
+/*Buttons*/
+button, summary {
+    background: black;
     color: rgb(214, 214, 17);
-} */
+    border: 1px solid rgb(214, 214, 17);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/*Text gedeelte*/
+textarea {
+    width: 100%;
+    height: 200px;
+    background: black;
+    color: rgb(214, 214, 17);
+    border: 1px solid rgb(214, 214, 17);
+}
