@@ -22,14 +22,38 @@ body {
     overflow-y: auto; /*Chatgpt*/
 }
 
-.left-panel summary {
+.document-part {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.details {
+    margin: 0;
+}
+
+.document-panel {
     background: #494848;
+    border: 1px solid #FDDA0D;
+    padding: 10px;
+    width: 100%;
+}
+
+.document-text {
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.notes-panel {
+    background: #494848;
+    border: 1px solid #FDDA0D;
+    padding: 10px;
+    min-width: 60px;
 }
 
 /*Rechterkant*/
 .right-panel {
     width: 1rem;
-    border: 2px solid #FDDA0D;
     padding: 20px;
 }
 
@@ -42,16 +66,23 @@ body {
 .paragraph {
     margin-bottom: 20px;
     padding: 15px;
-    border: 1px solid #FDDA0D;
+}
+
+.paragraph:focus {
+    outline: 2px solid #FFDA0D;
 }
 
 /*Buttons*/
-button, summary {
-    background: black;
+button {
+    background: transparent;
     color: #FDDA0D;
-    border: 1px solid #FDDA0D;
     padding: 10px;
     margin-top: 10px;
+}
+
+summary {
+    list-style: none;
+    padding: 10px;
 }
 
 /*Text gedeelte*/

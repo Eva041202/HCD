@@ -41,6 +41,7 @@ docButtons.forEach(button => {
 function loadDocument(docld) {
     textContainer.innerHTML = "";
     const paragraphs = documents[docld];
+    if (!paragraphs) return;
     paragraphs.forEach(paragraphText => {
         const p = document.createElement("div");
         p.classList.add("paragraph");
