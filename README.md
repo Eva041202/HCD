@@ -325,3 +325,6 @@ Het vak Notities heb ik verwijderd. Dit heeft geen nu als dit er al staat. Ik wi
 
 Documenten en Kies een document staan nu netjes onder elkaar.
 Een paar dingen heb ik aangepast, waardoor de JavaScript niet meer werkt. Dit pas ik volgende keer even aan.
+
+# tussentijds werken
+Niet iedere dag heb ik tijd voor HCD. Ik ben iedere dag druk bezig met de meesterproef en mijn weekenden ziten altijd bomvol. Tussendoor werk ik hier en daar aan zowel HCD als API.
