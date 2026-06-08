@@ -76,6 +76,9 @@ function loadDocument(docld) {
 }
 
 //Opslaan button
+saveButton.addEventListener("click", saveNote);
+
+
 function saveNote() {
     const noteText = noteInput.value;
 
@@ -87,4 +90,6 @@ function saveNote() {
 
     savedNotes.appendChild(note);
     noteInput.value = "";
+
+    saveButton.blur();
 }

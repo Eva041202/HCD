@@ -51,6 +51,11 @@ details {
     min-width: 60px;
 }
 
+#saved-notes p {
+    padding: 10px; /*0px*/
+    margin-bottom: 10px;
+}
+
 /* Rechterkant */
 .right-panel {
     width: 50%;
