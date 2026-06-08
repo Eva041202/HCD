@@ -66,11 +66,25 @@ function loadDocument(docld) {
         p.addEventListener("keydown", (event) => {
             if (event.key === "Enter") {
                 currentParagraph = paragraphText;
-                notePanel.classList.remove("hidden");
+                noteInput.value = "";
                 noteInput.focus();
             }
         })
 
         textContainer.appendChild(p);
     })
+}
+
+//Opslaan button
+function saveNote() {
+    const noteText = noteInput.value;
+
+    if (noteText === "") return;
+
+    const note = document.createElement("p");
+
+    note.textContent = "Notitie bij: " + currentParagraph + " -> " + noteText;
+
+    savedNotes.appendChild(note);
+    noteInput.value = "";
 }
