@@ -13,16 +13,14 @@ body {
 
 #cursor {
     position: fixed;
-    width: 60px;
-    height: 60px;
-
-    background: white;
-    border: 4px solid black;
-    border-radius: 50%;
-
     pointer-events: none;
     transform: translate(-50%, -50%);
     z-index: 99999;
+}
+
+#cursor img {
+    width: 50px;
+    height: 75px;
 }
 
 .left {
@@ -52,6 +50,7 @@ details {
     border: 1px solid #FDDA0D;
     padding: 10px;
     width: 100%;
+    font-size: 25px;
 }
 
 .document-text {
@@ -59,16 +58,26 @@ details {
     margin-top: 10px;
 }
 
+.document-text button {
+    font-size: 25px;
+}
+
 .notes-panel {
     background: #494848;
     border: 1px solid #FDDA0D;
     padding: 10px;
     min-width: 60px;
+    font-size: 25px;
+}
+
+#save-note {
+    font-size: 25px;
 }
 
 #saved-notes p {
     padding: 10px; /*0px*/
     margin-bottom: 10px;
+    font-size: 25px;
 }
 
 /* Rechterkant */
@@ -81,6 +90,7 @@ details {
 .paragraph {
     margin-bottom: 20px;
     padding: 15px;
+    font-size: 25px;
 }
 
 .paragraph:focus {
@@ -93,6 +103,7 @@ button {
     color: #FDDA0D;
     padding: 10px;
     margin-top: 10px;
+    border: solid #FDDA0D;
 }
 
 summary {
