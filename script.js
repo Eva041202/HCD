@@ -49,6 +49,9 @@ const savedNotes = document.getElementById("saved-notes");
 // De alinea
 let currentParagraph = "";
 
+//HTML element
+let currentElement = null;
+
 // Het document laden
 const docButtons = document.querySelectorAll(".button");
 
@@ -70,14 +73,20 @@ function loadDocument(docld) {
         p.setAttribute("tabindex", "0");
         p.textContent = paragraphText;
 
-        // Enter klikken op alinea
+        //Enter klikken op alinea
+        const notesPanel = document.querySelector(".notes-panel");
+
         p.addEventListener("keydown", (event) => {
             if (event.key === "Enter") {
-                currentParagraph = paragraphText;
-                noteInput.value = "";
-                noteInput.focus();
+            console.log("ENTER GEDRUKT");
+
+            currentParagraph = paragraphText;
+            currentElement = p;
+            notesPanel.open = true; //N gaat dan open om te kunnen typen
+            noteInput.value = "";
+            noteInput.focus();
             }
-        })
+        });
 
         textContainer.appendChild(p);
     })
@@ -100,4 +109,7 @@ function saveNote() {
     noteInput.value = "";
 
     saveButton.blur();
+    if (currentElement) {
+        currentElement.focus();
+    }
 }
