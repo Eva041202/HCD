@@ -8,6 +8,21 @@
 body {
     background: black;
     color: #FDDA0D;
+    cursor: none;
+}
+
+#cursor {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+
+    background: white;
+    border: 4px solid black;
+    border-radius: 50%;
+
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
 }
 
 .left {

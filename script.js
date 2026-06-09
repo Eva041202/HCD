@@ -1,3 +1,11 @@
+/*BRON: https://www.youtube.com/watch?v=FOC5RZHK_Gw + uitleg chatgpt*/
+// Cursor
+const cursor = document.getElementById("cursor");
+document.addEventListener("mousemove", (event) => {
+    cursor.style.left = event.clientX + "px";
+    cursor.style.top = event.clientY + "px";
+})
+
 /*BRON: Uitleg aan chatgpt gevraagd */
 const documents = {
                 Plato: [
