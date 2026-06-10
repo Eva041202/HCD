@@ -103,7 +103,7 @@ function saveNote() {
 
     const note = document.createElement("p");
 
-    note.textContent = "Notitie bij: " + currentParagraph + " -> " + noteText;
+    note.innerHTML = "<strong>Alinea:</strong><br>" + currentParagraph + "<br><br>" + "<strong>Mijn notitie:</strong><br>" + noteText;
 
     savedNotes.appendChild(note);
     noteInput.value = "";
