@@ -1,6 +1,8 @@
 /*BRON: https://www.youtube.com/watch?v=FOC5RZHK_Gw + uitleg chatgpt*/
 // Cursor
+console.log("SCRIPT START");
 const cursor = document.getElementById("cursor");
+console.log(cursor);
 document.addEventListener("mousemove", (event) => {
     cursor.style.left = event.clientX + "px";
     cursor.style.top = event.clientY + "px";
@@ -45,6 +47,8 @@ const noteInput = document.getElementById("note-input");
 const saveButton = document.getElementById("save-note");
 
 const savedNotes = document.getElementById("saved-notes");
+//Enter klikken op pagina
+const notesPanel = document.querySelector(".notes-panel");
 
 // De alinea
 let currentParagraph = "";
@@ -68,25 +72,22 @@ function loadDocument(docld) {
     const paragraphs = documents[docld];
     if (!paragraphs) return;
     paragraphs.forEach(paragraphText => {
-        const p = document.createElement("div");
+        const p = document.createElement("button");
         p.classList.add("paragraph");
-        p.setAttribute("tabindex", "0");
+
         p.textContent = paragraphText;
 
-        //Enter klikken op alinea
-        const notesPanel = document.querySelector(".notes-panel");
-
-        p.addEventListener("keydown", (event) => {
-            if (event.key === "Enter") {
-            console.log("ENTER GEDRUKT");
+        p.addEventListener("click", () => {
+            console.log("ACTIVATED");
 
             currentParagraph = paragraphText;
             currentElement = p;
             notesPanel.open = true; //N gaat dan open om te kunnen typen
             noteInput.value = "";
             noteInput.focus();
-            }
-        });
+            });
+
+        console.log("Alinea toegevoegd", paragraphText);
 
         textContainer.appendChild(p);
     })
@@ -94,7 +95,6 @@ function loadDocument(docld) {
 
 //Opslaan button
 saveButton.addEventListener("click", saveNote);
-
 
 function saveNote() {
     const noteText = noteInput.value;
@@ -113,3 +113,7 @@ function saveNote() {
         currentElement.focus();
     }
 }
+
+document.addEventListener("keydown", (event) => {
+    console.log("TOETS:", event.key);
+});

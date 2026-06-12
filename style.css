@@ -89,9 +89,16 @@ details {
 
 /*Alinea's*/
 .paragraph {
+    background: transparent;
     margin-bottom: 20px;
     padding: 15px;
+
+    border: none;
     font-size: 25px;
+    text-align: left;
+
+    display: block;
+    width: 100%;
 }
 
 .paragraph:focus {
