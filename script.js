@@ -111,7 +111,8 @@ function saveNote() {
 
     if (noteText === "") return;
 
-    const note = document.createElement("p");
+    const note = document.createElement("div");
+    note.tabindex = 0;
 
     note.innerHTML = "<strong>Alinea:</strong><br>" + currentParagraph + "<br><br>" + "<strong>Mijn notitie:</strong><br>" + noteText;
 

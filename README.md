@@ -328,3 +328,51 @@ Een paar dingen heb ik aangepast, waardoor de JavaScript niet meer werkt. Dit pa
 
 # tussentijds werken
 Niet iedere dag heb ik tijd voor HCD. Ik ben iedere dag druk bezig met de meesterproef en mijn weekenden ziten altijd bomvol. Tussendoor werk ik hier en daar aan zowel HCD als API.
+
+# 04-06-2026
+Vandaag heb ik de eerste test met Jennifer gedaan.
+Hier kwam uit:
+Zelf gebruikt Jennifer geen screenreader, maar doet ze het met het zicht dat ze nog heeft.
+Ook gebruikt ze zelf een muis, maar heeft deze in de instellingen groter.
+
+NVDA had ik wel op dutch gezet, maar toch sprak deze de nederlandse tekst uit met een engels accent.
+Dit blijkt te komen doordat ik in de windows instellingen geen nederlandse taal heb geïnstalleerd.
+
+Het contrast vond ze erg fijn. Geel op een donkere achtergrond (hetzelfde als Roger).
+
+Op de details zegt de screenreader "button" "collapsed". Dit wil ik weg krijgen.
+
+Zowel de teksten als de muis zelf mag groter.
+
+De knoppen mogen ook wat duidelijker. Ik ga hier een border om zetten.
+
+Het lettertype vindt ze heel prettig. Het mag alleen dus wat groter.
+Ze liet me ook de website van Lowlands zien om te laten zien waar ze een hekel aan heeft. Zelfs voor mij is het erg lastig lezen, laat staan iemand die slechtziend is.
+
+# De week er tussen
+Deze week heb ik ervoor gezorgd dat je alinea's kan selecteren en op enter klikken.
+Eerst werkte het notitie aanmaken niet, omdat de N niet opende. De focus heb ik veranderd.
+
+Met aria-roles kon ik ervoor zorgen dat de screenreader minder "computertaal" spreekt
+Ook ervoor gezorgd dat als de gebruiker opslaat nog door de screenreader wordt gezegd "opgeslagen"
+
+Als ik klikte op de knop "plato" dan ging de focus niet meteen naar de tekst, maar eerst naar de volgende knop. Dit heb ik aangepast.
+
+Na het opslaan van een notitie ging de focus terug naar dezelfde alinea en werd deze opnieuw helemaal voorgelezen.
+Ik heb de focus aangepast naar de volgende alinea.
+
+# 14-06-2026
+Vandaag heb ik de tweede test met Jennifer gedaan.
+Hier kwam uit:
+Grote verbetering.
+
+Het viel haar meteen op dat de teksten veel groter zijn.
+Knoppen zijn ook groter en duidelijker.
+
+Ze kon alle documenten lezen (globaal) en notities aanmaken als ze dit wilde.
+Ze kon zelf kiezen of ze bij een alinea wel of geen notitie maakte.
+De tekst in het vak voor notities is alleen nog erg klein. Dit had ik over het hoofd gezien en moet ik nog even aanpassen.
+
+Het aanmaken van een notitie gaat eenvoudig. Alleen kan je hier niet naar terug tabben om te lezen.
+Jennifer kan nog zien wat zij heeft opgeslagen, maar Roger had dit dan niet terug kunnen lezen.
+Dit pas ik nog even aan.
