@@ -112,9 +112,28 @@ function saveNote() {
     if (noteText === "") return;
 
     const note = document.createElement("div");
-    note.tabindex = 0;
+    note.tabIndex = 0;
 
-    note.innerHTML = "<strong>Alinea:</strong><br>" + currentParagraph + "<br><br>" + "<strong>Mijn notitie:</strong><br>" + noteText;
+    // samenvatting notitie
+    const korteAlinea = currentParagraph.split(" ")
+                                        .slice(0, 4)
+                                        .join(" ")
+                                        + "...";
+
+    const titel = document.createElement("p");
+    titel.textContent = "Alinea: " + currentParagraph;
+
+    const mijnNotitie = document.createElement("p");
+    mijnNotitie.textContent = "Mijn notitie: " + noteText;
+
+    note.appendChild(titel);
+    note.appendChild(mijnNotitie);
+
+    note.setAttribute(
+        "aria-label", "Alinea: " + korteAlinea + ". Mijn notitie: " + noteText
+    );
+
+    // note.innerHTML = "<strong>Alinea:</strong><br>" + currentParagraph + "<br><br>" + "<strong>Mijn notitie:</strong><br>" + noteText;
 
     savedNotes.appendChild(note);
     noteInput.value = "";
