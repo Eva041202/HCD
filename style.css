@@ -127,3 +127,8 @@ textarea {
     color: #FDDA0D;
     border: 1px solid #FDDA0D;
 }
+
+.saved {
+    position: absolute;
+    left: -9999px;
+}

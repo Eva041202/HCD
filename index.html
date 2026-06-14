@@ -20,13 +20,13 @@
             <div class="document-part">
 
                 <details class="document-panel">
-                    <summary tabindex="0">Documenten</summary>
+                    <summary tabindex="0" aria-label="documenten">Documenten</summary>
                     <div class="document-text">
-                        <button class="button" data-doc="Plato">
+                        <button class="button" data-doc="Plato" aria-label="open document plato">
                             Plato
                         </button>
                     
-                        <button class="button" data-doc="Epistemologie">
+                        <button class="button" data-doc="Epistemologie" aria-label="open document epistemologie">
                             Epistemologie
                         </button>
 
@@ -38,14 +38,16 @@
 
             <div class="right-panel" id="note-panel">
                 <details class="notes-panel">
-                    <summary tabindex="0">N</summary>
+                    <summary tabindex="0" aria-label="notities">N</summary>
                     <div id="saved-notes"></div>
 
-                    <textarea id="note-input"></textarea>
+                    <textarea id="note-input" aria-label="voer hier je notitie in Klik op tab om daarna naar de opslaan knop te gaan."></textarea>
 
-                    <button id="save-note">
+                    <button id="save-note" aria-label="notitie opslaan">
                     Opslaan
                     </button>
+
+                    <div class="saved" id="saved-message" aria-live="assertive"></div>
                 </details>
         </div>
     </div>

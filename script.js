@@ -50,6 +50,9 @@ const savedNotes = document.getElementById("saved-notes");
 //Enter klikken op pagina
 const notesPanel = document.querySelector(".notes-panel");
 
+// opslaan knop "opgeslagen"
+const savedMessage = document.getElementById("saved-message");
+
 // De alinea
 let currentParagraph = "";
 
@@ -90,7 +93,14 @@ function loadDocument(docld) {
         console.log("Alinea toegevoegd", paragraphText);
 
         textContainer.appendChild(p);
-    })
+    });
+
+    //focus naar 1e alinea van de tekst
+    const firstParagraph = textContainer.querySelector(".paragraph");
+
+    if (firstParagraph) {
+        firstParagraph.focus();
+    }
 }
 
 //Opslaan button
@@ -108,12 +118,26 @@ function saveNote() {
     savedNotes.appendChild(note);
     noteInput.value = "";
 
-    saveButton.blur();
-    if (currentElement) {
-        currentElement.focus();
-    }
-}
+    //screenreader "opgeslagen"
+    savedMessage.textContent = "";
+    setTimeout(() => {
+        savedMessage.textContent = "opgeslagen";
+    }, 100);
+
+    //wachten tot focus naar tekst gaat
+    setTimeout(() => {
+        if (currentElement) {
+            const nextParagraph = currentElement.nextElementSibling;
+            if (nextParagraph) {
+                nextParagraph.focus();
+            } else {
+                currentElement.focus();
+            }
+        }
+    }, 1000);
+
 
 document.addEventListener("keydown", (event) => {
     console.log("TOETS:", event.key);
 });
+}
