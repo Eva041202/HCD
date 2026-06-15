@@ -361,6 +361,11 @@ Als ik klikte op de knop "plato" dan ging de focus niet meteen naar de tekst, ma
 Na het opslaan van een notitie ging de focus terug naar dezelfde alinea en werd deze opnieuw helemaal voorgelezen.
 Ik heb de focus aangepast naar de volgende alinea.
 
+De muis wilde ik groter maken. Ocean kwam met het idee om wat origineels met de muis te doen om zo ook de add nonsense toe te passen.
+Hij kwam met het idee voor een paard als muis, omdat Jennifer paardrijdt.
+Omdat deze website oorspronkelijk voor Roger is bedoeld heb ik dit niet gedaan. Ik heb wel het idee gebruikt en een kunstwerk van Roger gebruikt voor de muis.
+Bron: <a href="https://www.youtube.com/watch?v=FOC5RZHK_Gw">
+
 # 14-06-2026
 Vandaag heb ik de tweede test met Jennifer gedaan.
 Hier kwam uit:
@@ -376,3 +381,30 @@ De tekst in het vak voor notities is alleen nog erg klein. Dit had ik over het h
 Het aanmaken van een notitie gaat eenvoudig. Alleen kan je hier niet naar terug tabben om te lezen.
 Jennifer kan nog zien wat zij heeft opgeslagen, maar Roger had dit dan niet terug kunnen lezen.
 Dit pas ik nog even aan.
+
+# Exclusive Deisgn principles
+## Study situation.
+Study situation is het inleven in de persoon, onderzoeken wat het probleem is en hoe je dit aan zou kunnen pakken.
+Ik heb dit toegepast door: voor het ontmoetingsgesprek vragen op te stellen voor Roger.
+Tijdens testen meetypen met wat Roger zei en vond.
+
+Anderen die Roger hebben gehad hadden dezelfde bevindingen.
+
+## Ignore conventions:
+Ignore conventions is het negeren van de standaard, zoals altijd een menu bovenaan.
+Voor de app van Roger heb ik bijvoorbeeld geen menu. Ik heb 2 kolommen en meer niet.
+Voor een ziende gebruiker ziet dit er saai en nutteloss uit, maar Roger zou hier overweg mee kunnen.
+In ieder geval, Jennifer kon dat.
+
+## Prioritise identity
+Prioritise identity is dat je de persoon voor wie je het maakt op één zet. Ik kan over bepaalde dingen anders denken, maar als de gebruiker dit niet fijn vindt houdt het op.
+Ik heb dit toegepast door mijn ontwerpen te basseren op de bevindingen uit de gesprekken met Roger.
+Wat ik uit de tests haalde met Jennifer dacht ik eerst na hoe Roger dit zou vinden/gebruiken, en paste dit daarna toe.
+Het scheelt dat ik Roger vaker zie en spreek met de meesterschap.
+
+## Add nonsense
+Adding nonsense gaat over het creatief zijn en dat soms de raarste ideeën juist goed werken.
+Dit heb ik toegepast door de muis aan te passen.
+Jennifer kwam met de eerste test dat de muis wat groter moet zijn.
+Ocean kwam met het voorstel dat ik er een leuke afbeelding van maak en dat het opvalt.
+Ik heb een kunstwerk van Roger gepakt en hiervan de muis gemaakt.
